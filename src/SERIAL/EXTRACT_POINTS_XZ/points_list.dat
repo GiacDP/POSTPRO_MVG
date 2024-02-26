@@ -1,0 +1,4 @@
+nxmax, nbx, nzmax, nbz, ng, num_points
+6144, 16, 384, 4, 6, 1
+ip, kp
+1, 1

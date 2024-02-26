@@ -1,0 +1,8 @@
+nbx, nby, nbz, ng, ibstart, kbstart, jmax
+16,   1,   4,   6,    10,      2,     351
+m, fmin
+-8192, 6.1035188185869064E-004
+i_avspan, nspecsec, i_readindex
+   0,         0,        1
+(ksec(k), k = 1, nspecsec)
+1, 160, 193, 226
