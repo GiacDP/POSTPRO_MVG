@@ -1,6 +1,6 @@
 **`Welcome to POSTPRO_MVG repository!`**
 
-POSTPRO\_MVG contains various codes to post-process the results from STREAmS-2 (<https://github.com/STREAmS-CFD/STREAmS-2>) regarding flows with microramp MVGs. Some of the results generated with these codes are reported in the papers below. 
+**POSTPRO\_MVG** contains various codes to post-process the results from *STREAmS-2* (<https://github.com/STREAmS-CFD/STREAmS-2>) regarding flows with microramp MVGs. Some of the results generated with these codes are reported in the papers below. 
 
 Detailed description of each program is reported in the header of the main file in the respective folder. For spectral analysis fftw3 library is needed.
 
