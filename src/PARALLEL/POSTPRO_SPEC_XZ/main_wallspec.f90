@@ -374,6 +374,8 @@ spec_av  = 0. ! Single spanwise- and time-averaged spectra
 
 IF (masterproc) WRITE(*,*) 'Start with reading + spectra.'
 
+ist = .FALSE.
+
 DO kb = kbstart, kbend
 
   IF (masterproc) WRITE(*,*) kb
@@ -405,6 +407,8 @@ DO kb = kbstart, kbend
       IF (ANY(ksec==k+kb*nz)) THEN
         ist = .TRUE.
         kr  = kr + 1 
+      ELSE
+        ist = .FALSE.
       ENDIF
     ENDIF
  
